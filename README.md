@@ -58,15 +58,7 @@
 
 Probado en AutoCAD / Civil 3D 2022, dibujo en metros (escala 1:1).
 
-## Estructura del repositorio
 
-```
-├─ index.html            ← página (GitHub Pages)
-├─ herramientas.json     ← FUENTE ÚNICA: textos de las 20 herramientas
-├─ assets/img/           ← ilustraciones SVG + banner + og-image.png
-├─ lisp/                 ← aquí van los .lsp
-└─ scripts/              ← construir.py y generar_imagenes.py
-```
 
 Para cambiar textos: edita `herramientas.json` y corre `python scripts/construir.py`.
 
